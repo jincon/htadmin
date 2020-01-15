@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8eaa9a39-3114-4d10-8808-2b43c6bdd7fd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ht.cn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/README.en.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/basic_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/blank_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/blog_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/blog_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/boxed_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/buttons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/c3chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/chartjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/bootstrap-fileupload.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/bootstrap-reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/clndr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/jquery-ui-1.10.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/jquery.stepy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/style-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/css/table-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/directory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/dropzone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/dynamic_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/editable_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/editors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/flot_chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fontawesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/mixins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/variables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/fonts/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/form_advanced_components.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/form_layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/form_validation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/form_wizard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/general.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/google_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/grids.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/horizontal_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/404-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/500-error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/alert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/avatar-mini.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-avatar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-sm-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-thumb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-thumb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-thumb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/blog-wide-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/blog/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/details_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/details_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/image4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/image5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/sm-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/sm-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/gallery/sm-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/graph.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/input-spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/invoice-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/lockscreen-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/logo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/user-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/photos/userprofile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/plus-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/images/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/inline_editors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/invoice_print.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/css/demo_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/css/demo_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/css/demo_table_jui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/back_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/back_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/back_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/forward_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/forward_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/forward_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/sort_desc copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/DataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/api/api.internal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/api/api.methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/api/api.static.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.draw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.length.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.processing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.scrolling.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.sizing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/core/core.support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/ext/ext.classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/ext/ext.paging.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/ext/ext.sorting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/ext/ext.types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.defaults.columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.ext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.row.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/advanced-datatable/src/model/model.settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-colorpicker/css/colorpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-colorpicker/img/alpha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-colorpicker/img/hue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-colorpicker/img/saturation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-colorpicker/less/colorpicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datepicker/css/datepicker-custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datepicker/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datepicker/less/datepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/examples.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/css/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/less/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-datetimepicker/less/datetimepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-fileupload.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-inputmask/bootstrap-inputmask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-timepicker/css/timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-timepicker/less/timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-timepicker/less/timepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap-wysihtml5/wysiwyg-color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/c3-chart/c3-chart.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/c3-chart/c3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/c3-chart/c3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/c3-chart/c3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/calendar/clndr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/calendar/clndr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/calendar/evnt.calendar.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/calendar/moment-2.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/chart-js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/chart-js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/chart-js/chartjs.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/build-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/contents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/sr-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/dialog/dialogDefinition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/fakeobjects/images/spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/image/dialogs/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/image/images/noimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/link/dialogs/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/link/images/anchor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/magicline/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/pastefromword/filter/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/scayt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/scayt/dialogs/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/table/dialogs/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/wsc/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/wsc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/wsc/dialogs/ciframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/wsc/dialogs/wsc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/appendto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/assets/inlineall/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/assets/outputxhtml/outputxhtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/assets/posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/assets/sample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/assets/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/assets/uilanguages/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/divreplace.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/inlineall.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/inlinebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/dialog/assets/my_dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/dialog/dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/enterkey/enterkey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/htmlwriter/outputhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/magicline/magicline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/toolbar/toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/plugins/wysiwygarea/fullpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/readonly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/replacebyclass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/replacebycode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/sample.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/sample_posteddata.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/tabindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/uicolor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/uilanguages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/samples/xhtmlstyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/dialog_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/dialog_ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/dialog_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/dialog_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/dialog_opera.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/editor_gecko.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/editor_ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/editor_ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/editor_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/editor_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/images/mini.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/skins/moono/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ckeditor/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dashboard-chart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/data-tables/DT_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/data-tables/DT_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/data-tables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/data-tables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/data-tables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/data-tables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/css/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/css/stylus/basic.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/css/stylus/dropzone.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/dropzone-amd-module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dropzone/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/dynamic_table_init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/easypiechart/easypiechart-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/easypiechart/easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/easypiechart/jquery.easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/easypiechart/jquery.easypiechart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/editable-table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/external-dragging-calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/FAQ.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/NEWS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/PLUGINS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/build.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.colorhelpers.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.animator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.animator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.canvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.categories.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.crosshair.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.errorbars.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.fillbetween.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.growraf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.image.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.navigate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.pie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.pie.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.selection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.spline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.stack.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.symbol.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.threshold.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.time.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot-chart/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/flot.chart.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/COPYING" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/css/tree-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/css/tree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/img/tree-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/js/spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/js/spinner.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/js/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fuelux/js/tree.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fullcalendar/fullcalendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/fullcalendar/gcal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/google-map/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/google-map/gmaps-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/google-map/gmaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/gritter-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/gritter-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/gritter-long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/gritter-purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/js/gritter-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/js/jquery.gritter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/gritter/js/jquery.gritter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/jquery.icheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/jquery.icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/line/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/skins/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/zepto.icheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/iCheck/zepto.icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/icheck-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/PSD/sprite-skin.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinSimple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/img/sprite-skin-flat-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/img/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/img/sprite-skin-nice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/img/sprite-skin-simple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/js/ion-rangeSlider/ion.rangeSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/js/ion-rangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ion.rangeSlider-1.8.2/js/vendor/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ios-switch/ios-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ios-switch/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/ios-switch/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-multi-select/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-multi-select/css/multi-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-multi-select/img/switch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-multi-select/img/switch_original.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-multi-select/js/jquery.multi-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-multi-select/js/jquery.quicksearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-tags-input/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-tags-input/jquery.tagsinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-tags-input/jquery.tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-tags-input/jquery.tagsinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-ui-1.10.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery.cookies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery.isotope.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery.nicescroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery.stepy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-1.1.1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-1.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-1.2.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-au-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-us-aea-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-us-lcc-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-us-merc-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-us-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/data/jquery.vmap.sampledata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/jquery.vmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/jquery.vmap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/jquery.vmap.packed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/jqvmap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/jquery.vmap.africa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/jquery.vmap.asia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/jquery.vmap.australia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/jquery.vmap.north-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/jquery.vmap.south-america.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/continents/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.algeria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.brazil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.europe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.france.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.germany.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.russia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.usa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/jvector-map/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/modernizr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/morris-chart/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/morris-chart/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/morris-chart/morris.init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/morris-chart/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/morris-chart/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/morris-chart/raphael-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/multi-select-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/nestable-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/nestable/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/nestable/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/nestable/jquery.nestable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/nestable/jquery.nestable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/pickers-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/sparkline/jquery.sparkline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/sparkline/sparkline-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/spinner-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/tagsinput-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/tree-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/js/validation-init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/leftmenu_collapsed_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/lock_screen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/mail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/mail_compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/mail_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/morris.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/nestable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/panels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/pickers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/pricing_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/responsive_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/slider.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/tabs-accordions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/tree_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/typography.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdminEx/vector_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Advertise.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Cate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Notice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Operation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Rule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/controller/Users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/AdminNav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/Article.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/AuthGroup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/AuthGroupAccess.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/AuthRule.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/Cate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/Members.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/PersonalMsg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/model/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/validate/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/advertise/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/advertise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/article/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/article/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/article/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/cate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/common/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/common/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/common/nav_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/member/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/member/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/nav/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/nav/index_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/personal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/personal_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/push_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/push_msg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/system.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/notice/system_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/operation/do_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/operation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/operation/showlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/add_admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/add_admin_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/admin_user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/check_user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/check_user_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/edit_admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/edit_admin_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/login_log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/rule_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/rule/rule_group_bak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/users/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/users/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/admin/view/users/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/extra/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/controller/Home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/controller/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/validate/Check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/validate/Member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/validate/Reg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/home/view/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wap/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wap/controller/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wap/validate/Check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wap/validate/Member.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wap/validate/Reg.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/wap/view/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/admin/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/home/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ht.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/cate_img/20191230/07597cbe99e38a9fbe888c74e0334461.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/cache/7b/9a683cbd195cacfa83c45a53e242df.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/cache/f0/f108e65486ce2a6f57079fadb4dc6e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/1573367679-10.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/1573465558-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/1573481397-11.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/1573542068-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/1573642621-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/1573656870-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/26.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201911/30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/27.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/28.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/29.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/30.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/201912/31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/log/202001/15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/036052b2f52b981f2bf5f97f8adbb631.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/1146767a82f94eb361624a786a960fad.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/1514d6cf06f6006c776e1a1235de7694.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/15b43fdb45da055207e4baddc7e35e4e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/189217c84494b36b29d5bade8488f343.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/18f1d094491bc289f95c1e608fbe42b4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/1a79fe12bab02170ed947d69be2da9d1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/1e67281e058a1d16e95ae34b37a3d9b2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/1f21778d9804ea333701de85fa119ef8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/2b69c3c409730d7cbd8737cda583ac39.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/2e0796733be7feb81df71431fdc35625.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/2e97230da29224dbf44d4aed24373a78.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/309816bf7e13e362d668629af85602db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/35d3d3ee48c30cad1749ad15b3cc19c6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/3b388adffc76fa6aad090ac441609011.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/3dff2dba943bdf52ff88dcf876eb9a23.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/42eaf0b0f4341518f0c28c028f410b86.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/4a7859d5b439913cdd2ff644b50fe7ae.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/4b06e880c644e0a09790b32bb37723c6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/4ccfd65d0d592adb8303190b622b233d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/4da702cb83d12565adb0819484992cec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/4e2408bdaebb3f5b9c5447dbfd068b2f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/51e97af3a47216c46f6db9e38bed8a73.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/521e205634db6858083e89defdc96e03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/5642bde65b67322b036023d5ba9ee2e0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/5a6bb91edee8637271e581015f70821c.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/5b2da391fa7976c7ca860bb0193e73dd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/5e7652481d895ebfc055c107c2fbd1cd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/5fed9df5db3eb5c754e35ef5ffe9700f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/741dffb19d7a651dc9b8d903c9290203.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/781b686f967fd40d2c4ff65d6fe214ee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/8134b8f0a94a6a324a3274d7175ab97e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/8872bc0b8c8e54a568c1cc4d0deaadfc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/8d540db15114300fa872271be88d3574.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/959b061bc7bec45076bf30c9129d9cb0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/99c10bd0dc718290313f1fd478761c2b.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/9a7e5f1457a0a3984a248569eb375134.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/a5b6c228f57a3c9f971ae9d6108165eb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/ab6be07c17c8c5a77015a766ce5a852d.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/aeed771b2622105f32aaae9a9deafc2f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/b111fdd95bb9181df889b89009812ce0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/b34816064486c9edbc22828f7339fa5e.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/bca343cbe5ab0030fac9ff9671485454.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/c79b65bf4155b5d737a316c768b88705.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/c94b80fc5479942907d43552f9e64975.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/cd65e2822ff7e4808bed2686a6a80545.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/d444220695643316502664a5732851e4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/d91045770be63c9eb8b247fe8a352418.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/da6a7495232caf845263b200d4dfee27.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/db9dcb653fc23b78971e314f9edc3fb9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/e02b9cc7decd8d4d2b29131a46155d0f.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime/temp/f14db1ac91e4f65094efbc53e0547852.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/think" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/codecov.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/convention.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/lang/zh-cn.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Build.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Cookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Env.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Hook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Paginator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Response.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Url.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/Validate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Lite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Sqlite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Wincache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/cache/driver/Xcache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Ini.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/config/driver/Xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Command.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Input.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/Output.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/bin/hiddeninput.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Build.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Clear.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Lists.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/Make.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.plain.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/controller.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/make/stubs/model.stub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/command/optimize/Schema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Argument.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Definition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/input/Option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Ask.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Descriptor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Formatter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/Question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/descriptor/Console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Buffer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/driver/Nothing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Stack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/formatter/Style.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Choice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/console/output/question/Confirmation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Rest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/controller/Yar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Builder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Expression.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/Query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Mysql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Pgsql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/builder/Sqlsrv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Mysql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Pgsql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/Sqlsrv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/connector/pgsql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/BindParamException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/DataNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/db/exception/ModelNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/debug/Console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/debug/Html.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ClassNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/DbException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ErrorException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/Handle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/HttpResponseException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/PDOException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/RouteNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/TemplateNotFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ThrowableError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/exception/ValidateException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Socket.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/log/driver/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Collection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Merge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Pivot.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/Relation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsTo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/BelongsToMany.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasMany.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasManyThrough.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/HasOne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphMany.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphOne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/MorphTo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/model/relation/OneToOne.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/paginator/driver/Bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Builder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/Utils.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Failed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/exception/Timeout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Pipes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Unix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/process/pipes/Windows.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Json.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Jsonp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Redirect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/View.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/response/Xml.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/session/driver/Redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/template/TagLib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/template/driver/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/template/taglib/Cx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/think/view/driver/Think.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/traits/controller/Jump.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/traits/model/SoftDelete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/library/traits/think/Instance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/start.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/index/controller/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/display.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/display.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/extend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/extend2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/include.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/include2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/application/views/layout2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/conf/memcached.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/conf/redis.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/conf/timezone.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/mock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/script/install.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/baseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/appTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/behavior/One.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/behavior/Three.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/behavior/Two.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/buildTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cache/driver/cacheTestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cache/driver/fileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cache/driver/liteTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cache/driver/memcacheTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cache/driver/memcachedTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cache/driver/redisTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cacheTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/ConfigInitTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/driver/fixtures/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/driver/fixtures/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/driver/fixtures/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/driver/iniTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/driver/jsonTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/config/driver/xmlTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/configTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/controllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/cookieTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/db/driver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/dbTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/debugTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/exceptionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/hookTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/lang/lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/langTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/loader/test/Hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/loaderTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/log/driver/fileTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/logTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/model/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/paginateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/requestTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/responseTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/routeTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/session/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/sessionTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/template/driver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/template/taglib/cxTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/templateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/urlTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/validateTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/view/driver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/view/theme/index/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/think/viewTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/traits/controller/jumpTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/traits/model/softDeleteTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tests/thinkphp/library/traits/think/instanceTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/default_index.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/dispatch_jump.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/page_trace.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp/tpl/think_exception.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/.gitignore" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/controller/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/view/article/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="96" column="71" selection-start-line="96" selection-start-column="71" selection-end-line="96" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ht.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ht.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="126" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/controller/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/view/index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="20" selection-start-column="20" selection-end-column="20" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/controller/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/view/article/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/admin/view/article/add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1394">
+              <caret line="82" column="71" selection-start-line="82" selection-start-column="71" selection-end-line="83" selection-end-column="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>房间</find>
+      <find>tags_1</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>文章</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/admin/controller/Nav.php" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/public/static/admin/js/umeditor/changelog.md" />
+        <option value="$PROJECT_DIR$/public/static/admin/js/umeditor/README.md" />
+        <option value="$PROJECT_DIR$/app/admin/view/common/nav.html" />
+        <option value="$PROJECT_DIR$/app/admin/controller/Admin.php" />
+        <option value="$PROJECT_DIR$/app/admin/view/article/add.html" />
+        <option value="$PROJECT_DIR$/app/admin/validate/User.php" />
+        <option value="$PROJECT_DIR$/app/admin/controller/Member.php" />
+        <option value="$PROJECT_DIR$/app/admin/view/member/index.html" />
+        <option value="$PROJECT_DIR$/app/admin/view/member/edit.html" />
+        <option value="$PROJECT_DIR$/app/admin/view/member/add.html" />
+        <option value="$PROJECT_DIR$/app/admin/model/Detail.php" />
+        <option value="$PROJECT_DIR$/app/admin/model/Gold.php" />
+        <option value="$PROJECT_DIR$/app/admin/view/common/base.html" />
+        <option value="$PROJECT_DIR$/app/admin/view/article/edit.html" />
+        <option value="$PROJECT_DIR$/app/admin/controller/Article.php" />
+        <option value="$PROJECT_DIR$/app/admin/view/article/index.html" />
+        <option value="$PROJECT_DIR$/public/1.php" />
+        <option value="$PROJECT_DIR$/public/test.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/app/admin/controller/Index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/admin/view/index/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-migration" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-angular" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-worker" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/workerman/workerman-chat" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/jpush/jpush" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-image" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-testing" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-mongo" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-queue" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="190" />
+    <option name="y" value="185" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ht.cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ht.cn" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ht.cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ht.cn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ht.cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ht.cn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ht.cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ht.cn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ht.cn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ht.cn" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpstudy_pro\WWW\ht.cn" />
+      <recent name="D:\phpstudy_pro\WWW\ht.cn\public\static\admin\js" />
+      <recent name="D:\phpstudy_pro\WWW\ht.cn\app\admin\view\article" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eaa9a39-3114-4d10-8808-2b43c6bdd7fd" name="Default" comment="" />
+      <created>1576678580147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576678580147</updated>
+      <workItem from="1576678581489" duration="61000" />
+      <workItem from="1577333844834" duration="821000" />
+      <workItem from="1577375212505" duration="48000" />
+      <workItem from="1577423429473" duration="1944000" />
+      <workItem from="1577631231000" duration="1299000" />
+      <workItem from="1577681734341" duration="5855000" />
+      <workItem from="1577760650466" duration="1493000" />
+      <workItem from="1577788264299" duration="9001000" />
+      <workItem from="1577940053346" duration="755000" />
+      <workItem from="1578145276855" duration="817000" />
+      <workItem from="1578196252751" duration="918000" />
+      <workItem from="1578921593049" duration="383000" />
+      <workItem from="1579009483688" duration="95000" />
+      <workItem from="1579009613900" duration="3812000" />
+      <workItem from="1579057875490" duration="1654000" />
+      <workItem from="1579080281482" duration="778000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34107000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17135416" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32946146" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/validate/Member.php" />
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Admin.php" />
+    <entry file="file://$PROJECT_DIR$/APP/Home/Controller/IndexController.class.php" />
+    <entry file="file://$PROJECT_DIR$/403.html" />
+    <entry file="file://$PROJECT_DIR$/APP/Admin/View/Roborder/robsucc.html" />
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/RoborderController.class.php" />
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/validate/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/validate/Check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="20" lean-forward="true" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="156" column="45" selection-start-line="156" selection-start-column="45" selection-end-line="156" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/Ueditor/ueditor.all.js" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/changelog.md" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/README.md" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/Ueditor/ueditor.config.js" />
+    <entry file="file://$PROJECT_DIR$/app/admin/view/common/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/filterRuleDemo.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/formulaDemo.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/completeDemo.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/index.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/pageeditor.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/resetDemo.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/simpleDemo.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/umeditor.config.js" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/php/getContent.php" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/_examples/submitFormDemo.html" />
+    <entry file="file://$PROJECT_DIR$/public/static/admin/js/umeditor/php/imageUp.php" />
+    <entry file="file://$PROJECT_DIR$/app/admin/view/money/cash.html" />
+    <entry file="file://$PROJECT_DIR$/app/admin/view/money/recharge.html" />
+    <entry file="file://$PROJECT_DIR$/app/admin/view/money/statistics.html" />
+    <entry file="file://$PROJECT_DIR$/app/admin/view/money/transaction.html" />
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Money.php" />
+    <entry file="file://$PROJECT_DIR$/app/admin/view/member/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="82" column="185" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="185" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/member/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="88" column="36" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/member/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/validate/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/common/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/article/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="71" selection-start-line="82" selection-start-column="71" selection-end-line="83" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/article/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/1.php" />
+    <entry file="file://$PROJECT_DIR$/public/test.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/phpstorm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/article/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="96" column="71" selection-start-line="96" selection-start-column="71" selection-end-line="96" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ht.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="126" selection-start-line="32" selection-start-column="126" selection-end-line="32" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/controller/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="20" selection-start-column="20" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

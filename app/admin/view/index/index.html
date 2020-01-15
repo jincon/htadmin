@@ -1,0 +1,167 @@
+{extend name="common:base" /}
+
+{block name="main"}
+    <!--body wrapper start-->
+    <div class="wrapper">
+          
+          
+          
+            <div class="row">
+           <div class="col-md-6">
+               <!--statistics start-->
+               <div class="row state-overview">
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel purple">
+                           <div class="symbol">
+                               <i class="fa fa-gavel"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">今日 订单</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel red">
+                           <div class="symbol">
+                               <i class="fa fa-tags"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">客户 盈亏</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="row state-overview">
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel blue">
+                           <div class="symbol">
+                               <i class="fa fa-money"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">今日 充值</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel green">
+                           <div class="symbol">
+                               <i class="fa fa-eye"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">今日 流水</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <!--statistics end-->
+           </div>
+           <div class="col-md-6">
+               <!--statistics start-->
+               <div class="row state-overview">
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel purple">
+                           <div class="symbol">
+                               <i class="fa fa-gavel"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">今日 提现</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel red">
+                           <div class="symbol">
+                               <i class="fa fa-tags"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">当天  手续费</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="row state-overview">
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel blue">
+                           <div class="symbol">
+                               <i class="fa fa-gavel"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">今日余额</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-6 col-xs-12 col-sm-6">
+                       <div class="panel green">
+                           <div class="symbol">
+                               <i class="fa fa-tags"></i>
+                           </div>
+                           <div class="state-value">
+                               <div class="value">0</div>
+                               <div class="title">总余额</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <!--statistics end-->
+           </div>
+       </div>
+     
+     
+     
+   <div class="row">
+   <div class="col-sm-12">
+   <section class="panel">
+       <header class="panel-heading">
+           会员列表
+           <span class="tools pull-right">
+               <a href="javascript:;" class="fa fa-chevron-down"></a>
+               <a href="javascript:;" class="fa fa-times"></a>
+            </span>
+       </header>
+       <div class="panel-body">
+           <section id="unseen">
+               <table class="table table-bordered table-striped table-condensed">
+                   <thead>
+                   <tr>
+                       <th>UID</th>
+                       <th>名字</th>
+                       <th>email</th>
+                       <th>手机号</th>
+                       <th>状态</th>
+                       <th>ip</th>
+                       <th>添加时间</th>
+                   </tr>
+                   </thead>
+                   <tbody>
+                   {volist name='list' id='v'}
+                   <tr>
+                       <td>{$v.id}</td>
+                       <td>{$v.username}</td>
+                       <td>{$v.email}</td>
+                       <td>{$v["phone"]} </td>
+                       <td>{if $v['status']==0}禁止{else/}正常{/if}</td>
+                       <td>{$v.ip}</td>
+                       <td>{$v.create_at|date="Y-m-d H:i:s",###} </td>
+                   </tr>
+                   {/volist}
+
+               </table>
+           </section>
+       </div>
+   </section>
+   </div>
+   </div>
+   </div>
+   <!--body wrapper end-->
+{/block}
+{block name="js"}
+{/block}
+
+

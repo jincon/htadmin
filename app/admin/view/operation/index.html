@@ -1,0 +1,135 @@
+{extend name="common:base" /}
+
+{block name="main"}
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb panel">
+                <li><a href="{:url('Index/index')}"><i class="fa fa-home"></i> 控制台</a></li>
+                <li><a href="{:url('index')}">设置</a></li>
+                <li class="active">设置系统参数</li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+
+        <div class="panel-body">
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab">基本配置</a></li>
+                    <li><a href="#other" data-toggle="tab">其他配置</a></li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="home">
+                        <section class="panel">
+                            <hr>
+                            <div class="panel-body bio-graph-info">
+                                <form class="form-horizontal" role="form" action="{:url('edit')}" enctype="multipart/form-data" method="post" id="formid">
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">网站名称：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[name]" value="{$config.name}">
+                                        </div>
+                                        <label class="col-lg-3 control-label"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">网站SEO标题：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[seotitle]" value="{$config.seotitle}">
+                                        </div>
+                                        <label class="col-lg-3 control-label">网站SEO标题</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">网站SEO关键词：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[keyword]" value="{$config.keyword}">
+                                        </div>
+                                        <label class="col-lg-3 control-label"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">网站SEO描述：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[desc]" value="{$config.desc}">
+                                        </div>
+                                        <label class="col-lg-3 control-label"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">网站是否关闭：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[close]" value="{$config.close}">
+                                        </div>
+                                        <label class="col-lg-3 control-label">0关闭，1开启</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">LOGO：</label>
+                                        <div class="col-lg-7">
+                                            <div class="upload-pre-item">
+                                                <a href="/public\uploads/20190815\cca7dee6d9fa9afeef7839adc896e72f.png" target="_block" title="点击查看大图">
+                                                    <img height="100" src="/public\uploads/20190815\cca7dee6d9fa9afeef7839adc896e72f.png" alt="">
+                                                </a>
+                                            </div>
+                                            <br>
+                                            <input type="hidden" name="value_26_3">
+                                            <input type="file" id="pic_26" name="pic_26">
+                                        </div>
+                                        <label class="col-lg-3 control-label"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-2 col-lg-10">
+                                            <input type="submit" class="btn btn-success" value="提交">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="tab-pane fade in" id="other">
+                            <section class="panel">
+                            <hr>
+                            <div class="panel-body bio-graph-info">
+                                <form class="form-horizontal" role="form" action="{:url('edit')}" enctype="multipart/form-data" method="post" id="formid">
+                                    
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">是否开启：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[redisclose]" value="0">
+                                        </div>
+                                        <label class="col-lg-3 control-label">0关闭，1开启</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">REDIS的IP：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[redishost]" value="{$config.redishost}">
+                                        </div>
+                                        <label class="col-lg-3 control-label"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">REDIS的端口：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[redisport]" value="{$config.redisport}">
+                                        </div>
+                                        <label class="col-lg-3 control-label">REDIS的端口</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">REDIS的密码：</label>
+                                        <div class="col-lg-7">
+                                            <input type="text" class="form-control" name="config[redispass]" value="{$config.redispass}">
+                                        </div>
+                                        <label class="col-lg-3 control-label"></label>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-2 col-lg-10">
+                                            <input type="submit" class="btn btn-success" value="提交">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>   
+                    </div>
+                </div>  
+        </div>
+    </div>
+
+<!--body wrapper end-->
+{/block}

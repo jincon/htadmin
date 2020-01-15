@@ -1,0 +1,118 @@
+{extend name="common:base" /}
+
+{block name="main"}
+
+
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb panel">
+                <li><a href="{:url('Index/index')}"><i class="fa fa-home"></i> 控制台</a></li>
+                <li><a href="{:url('index')}">内容管理</a></li>
+                <li class="active">文章管理</li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <!--modal start-->
+            <section class="panel">
+                <header class="panel-heading">
+                    统计数据
+                    <span class="tools pull-right">
+                        <a class="fa fa-chevron-down" href="javascript:;"></a>
+                        <a class="fa fa-times" href="javascript:;"></a>
+                    </span>
+                </header>
+                <div class="panel-body ">
+
+                    <div class="col-md-3">
+                        <a href="/admin/article/index.html" class="btn btn-info col-md-11">
+                            总文章 <code> <strong>2 个</strong></code>
+                        </a>
+                    </div>
+                    <div class="col-md-3 ">
+                        <a href="/admin/chuangwei/index/status/1.html" class="btn btn-info col-md-11">
+                            已发布 <code> <strong>0 个</strong></code>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="/admin/chuangwei/index/status/2.html" class="btn btn-info col-md-11">
+                            未发布 <code> <strong>0 个</strong></code>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="/admin/chuangwei/index.html" class="btn btn-info col-md-11">
+                            待审核 <code> <strong>0 个</strong></code>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!--modal end-->
+        </div>
+    </div>
+    <div class="row">
+        <header class="panel-heading col-xs-12 ">
+            <form class="form-inline" action="{:url('')}">
+                <div class="col-md-3">
+                    <div class="input-group  custom-date-range">
+                        <input placeholder="开始日期"  class="form-control layer-date" id="start" value="{$_GET['from'] ?? ''}" name="from">
+                        <span class="input-group-addon">到</span>
+                        <input  placeholder="结束日期"  class="form-control layer-date" id="end" value="{$_GET['to'] ?? ''}" name="to">
+                    </div>
+                </div>
+                <select class="form-control " name="cid">
+                    <option value="0" >选择栏目</option>
+                    {foreach name="cate" item="vo" }
+                    <option value="{$vo.id}" {if $vo.id == input('cid')}selected{/if}>{$vo['_name']}</option>
+                    {/foreach}
+                </select>
+                <input type="text" name="title" class="form-control" value="{$_GET['title'] ?? ''}" placeholder="标题">
+                <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                <a href="{:url('add')}"  class="btn btn-success" title="添加">添加</a>
+        </form>
+        </header>
+        <div class="col-sm-12">
+            <section class="panel">
+                <div class="panel-body">
+                    <form class="ids" action="" method="post">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>栏目</th>
+                                <th>标题</th>
+                                <th class="18%">关键词</th>
+                                <th>点击</th>
+                                <th>时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='list' id='v'}
+                                <td>{$v.id}</td>
+                                <td><a href="{:url('index',['cid'=>$v.cid])}">{$v.cate}</a></td>
+                                <td>{$v.title}</td>
+                                <td>{$v.keyword}</td>
+                                <td>{$v.views}</td>
+                                <td>{$v.dateline}</td>
+                                <td>
+                                    <a class="btn btn-primary btn-xs" href="{:url('show',['id'=>$v['id']])}" title="点击编辑">编辑</a>
+                                    <a class="btn btn-danger btn-xs ajax-get confirm" href="{:url('ajaxdel',['id'=>$v['id']])}" title="点击删除">删除</a>
+                                </td>
+                            {/volist}
+                            </tbody>
+                        </table>
+                    </form>
+
+                </div>
+            </section>
+        </div>
+
+    </div>
+</div>    
+
+{/block}

@@ -1,0 +1,132 @@
+{extend name="common:base" /}
+
+{block name="main"}
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb panel">
+                <li><a href="{:url('Index/index')}"><i class="fa fa-home"></i> 控制台</a></li>
+                <li><a href="{:url('Users/index')}">用户管理</a></li>
+                <li class="active">编辑用户</li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading col-xs-12 ">
+
+                </header>
+                <div class="panel-body">
+                    <div class="form">
+                        <form class="form-horizontal adminex-form userForm form-post-user-edit"  method="post" action="{:url('Member/edit')}">
+                            <div class="form-group ">
+                                <label class="control-label col-lg-2">账号</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="username" value="{$member_info.username}" type="text" readonly/>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">真实姓名</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="truename" value="{$member_info.truename}" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">重置登陆密码</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="repassword" value="" type="text" placeholder="不修改可以为空"/>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">用户余额</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="money" value="{$member_info.money}" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">手机号</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="phone" value="{$member_info.phone}" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">Email</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="email" value="{$member_info.email}" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">状态</label>
+                                <div class="col-lg-6">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="status" value="1" {if $member_info.status == 1}checked{/if}> 正常
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="status" value="0" {if $member_info.status == 0}checked{/if}> 冻结
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">备注</label>
+                                <div class="col-lg-6">
+                                    <textarea class=" form-control" name="remark">{$member_info.remark}</textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-lg-offset-2 col-lg-10">
+                                    <input type="hidden" name="id" value="{$member_info.id}">
+                                    <button class="btn btn-primary ajax-post" target-form="form-post-user-edit" type="submit">保存</button>
+                                    <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="返回"><i class="fa fa-reply"></i>返回</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="rechargeModal" class="modal fade">
+        <div class="modal-dialog" style="width:400px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">变更上级</h4>
+                </div>
+                <form class="form-horizontal form-post-addmoney" action="{:url('proxy_change')}" method="post">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="col-lg-3 col-sm-3 control-label">二级代理</label>
+                            <div class="col-lg-8">
+                                <input type="text" name="t_name"  class="form-control" value="">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label  class="col-lg-3 col-sm-3 control-label">总代理</label>
+                            <div class="col-lg-8">
+                                <input type="text" name="proxy_name"  class="form-control" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="hidden" name="id"  value="{$member_info.id}"/>
+                        <button data-dismiss="modal" class="btn btn-default" type="button">取消</button>
+                        <button class="btn btn-primary " type="submit" target-form="form-post-addmoney">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>-->
+</div>
+<script type="text/javascript">
+    function recharge(){
+        $('#rechargeModal').modal('show');
+    }
+</script>
+<!--body wrapper end-->
+{/block}
+

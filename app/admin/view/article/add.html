@@ -1,0 +1,167 @@
+{extend name="common:base" /}
+
+{block name="main"}
+<!--body wrapper start-->
+<div class="wrapper">
+
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb panel">
+                <li><a href="{:url('Index/index')}"><i class="fa fa-home"></i> 控制台</a></li>
+                <li><a href="{:url('Article/index')}">文章列表</a></li>
+                <li class="active">添加文章</li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <section class="panel">
+                <header class="panel-heading">
+                    添加文章
+                </header>
+                <div class="panel-body">
+                    <div class="form">
+                        <form class="form-horizontal adminex-form userForm"  method="post" action="{:url('add')}">
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">文章标题</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="title" value="" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">所属栏目</label>
+                                <div class="col-lg-6">
+                                    <select class="form-control " name="cid">
+                                        <option value="" >选择所属部门</option>
+                                        {foreach name="cate" item="vo" }
+                                        <option value="{$vo.id}">{$vo['_name']}</option>
+                                        {/foreach}
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">文章关键词</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="keyword" value="" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">文章描述</label>
+                                <div class="col-lg-6">
+                                    <input class=" form-control" name="desc" value="" type="text" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">图片</label>
+                                <div class="col-lg-6">
+                                    <p class="bor_b left mg_tb10">
+                                    <p style="color:green"> 附件不要传太大，支持jpg,png,gif,jpeg等常用类型</p>
+                                    <span class="file_p text-center" id="btn_logo">
+                                       <label >点此选择附件</label>
+                                       <img height="100px"   id="btn_logo_img" src="__IMG__/add-button.jpg"/><br />
+                                       <input type="hidden" name="pic" value=""/>
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">发布时间</label>
+                                <div class="col-lg-2">
+                                    <input type="text" class="form-control" name="pubtime" value="" id="end" placeholder="" autocomplete="off">
+                                </div>
+                            </div>
+                            <link href="__JS__/umeditor/themes/default/_css/umeditor.css" type="text/css" rel="stylesheet">
+                            <div class="form-group ">
+                                <label  class="control-label col-lg-2">文章内容</label>
+                                <div class="col-lg-6">
+                                    <script type="text/plain" id="content" name="content" style="width:100%;height:360px;"></script>
+                                    </div>
+                                    </div>
+                            <div class="form-group">
+                                <div class="col-lg-offset-2 col-lg-10">
+                                    <button class="btn btn-primary " target-form="userForm"  type="submit">保存提交</button>
+                                    <button class="btn btn-warning " type="button" onclick="javascript:history.go(-1)">返回</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<script src="__JS__/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="__JS__/Plupload/plupload.full.min.js"></script>
+
+<script type="text/javascript">
+    var ids = new Array("btn_logo");
+    $.each(ids,function(i,n){
+        var self = this.toString();
+        var uploader_avatar = new plupload.Uploader({
+            runtimes: 'gears,html5,html4,silverlight,flash', //上传插件初始化选用那种方式的优先级顺序
+            browse_button: self, // 上传按钮
+            url: "{:url('upload_one')}", //远程上传地址
+            flash_swf_url: '__DTSC__/Moxie.swf',//flash文件地址
+            silverlight_xap_url: '__DTSC__/Moxie.xap', //silverlight文件地址
+            filters: {
+                max_file_size: '100mb', //最大上传文件大小（格式100b, 10kb, 10mb, 1gb）
+                mime_types: [//允许文件上传类型
+                    {title: "files", extensions: "jpg,png,gif,jpeg"}
+                ]
+            },
+            multi_selection: false, //true:ctrl多文件上传, false 单文件上传
+            init: {
+                FilesAdded: function(up, files) { //文件上传前
+                    uploader_avatar.start();
+                },
+                UploadProgress: function(up, file) { //上传中，显示进度条
+                    var percent = file.percent;
+                    $("#" + file.id).find('.bar').css({"width": percent + "%"});
+                    $("#" + file.id).find(".percent").text(percent + "%");
+                },
+                FileUploaded: function(up, file, res) { //文件上传成功的时候触发
+                    var data = JSON.parse(res.response);//解析返回的json数据
+                    var img = self+'_img'
+                    document.getElementById(img).src = "/uploads/"+data.pic;
+                    document.getElementById(img).width = 200;
+                    document.getElementById(img).height = 200;
+                    $('#'+self).find('i').remove();
+                    $('#'+self).find('input').val(data.pic);
+                },
+                Error: function(up, err) { //上传出错的时候触发
+                    alert(err.message);
+                }
+            }
+        });
+        uploader_avatar.init();
+    })
+</script>
+<!--body wrapper end-->
+{/block}
+
+{block name="js"}
+<!--pickers plugins-->
+<script type="text/javascript" src="__JS__/laydatenew/laydate.js"></script>
+
+<script src="__JS__/umeditor/third-party/template.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__JS__/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" src="__JS__/umeditor/lang/zh-cn/zh-cn.js"></script>
+
+<script>
+    laydate.render({elem:"#end",type: 'date',event:"focus"});
+    var serverPath = '/static/admin/js/umeditor/php/',
+        um = UM.getEditor('content', {
+            imageUrl:serverPath + "imageUp.php",
+            imagePath:serverPath,
+            lang:'zh-cn',
+            langPath:UMEDITOR_CONFIG.UMEDITOR_HOME_URL + "lang/",
+            focus: true
+        });
+</script>
+<!--pickers initialization-->
+
+{/block}

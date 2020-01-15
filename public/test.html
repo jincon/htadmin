@@ -1,0 +1,56 @@
+<html>
+<meta charset="utf-8">
+<head>
+
+</head>
+<body>
+
+<script type="text/javascript" src="/static/admin/js/jquery-1.10.2.min.js"></script>
+<div class="form-group ">
+    <div class="col-lg-6">
+        <input class=" form-control tags"  id="tags_1" name="keyword" value="文章关键词" type="text" />
+    </div>
+</div>
+<script src="/static/admin/js/jquery-tags-input/jquery.tagsinput.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/admin/js/jquery-tags-input/jquery.tagsinput.css" />
+<script>
+
+    formatNumber2('1,2,3,5,6','hk6');
+    function formatNumber2(strs, type){
+        strimg='';
+        strs=strs.split(',');
+        for(i=0;i<strs.length;i++)
+        {
+            strimg=strimg + '<span class="' + type + '_no">'+ parseInt(strs[i]) +'</span>';
+
+        }
+        return strimg;
+    }
+
+    function onAddTag(tag) {
+        alert("Added a tag: " + tag);
+    }
+    function onRemoveTag(tag) {
+        alert("Removed a tag: " + tag);
+    }
+    function onChangeTag(input,tag) {
+        alert("Changed a tag: " + tag);
+    }
+    $(function() {
+        $('#tags_1').tagsInput({width:'auto'});
+        $('#tags_2').tagsInput({
+            width: '250',
+            onChange: function(elem, elem_tags)
+            {
+                var languages = ['php','ruby','javascript'];
+                $('.tag', elem_tags).each(function()
+                {
+                    if($(this).text().search(new RegExp('\\b(' + languages.join('|') + ')\\b')) >= 0)
+                        $(this).css('background-color', 'yellow');
+                });
+            }
+        });
+    });
+</script>
+</body>
+</html>

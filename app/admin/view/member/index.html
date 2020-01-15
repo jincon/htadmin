@@ -1,0 +1,169 @@
+{extend name="common:base" /}
+{block name="css"}
+<!--pickers css-->
+<link rel="stylesheet" type="text/css" href="__JS__/bootstrap-datepicker/css/datepicker-custom.css" />
+<link rel="stylesheet" type="text/css" href="__JS__/bootstrap-timepicker/css/timepicker.css" />
+<link rel="stylesheet" type="text/css" href="__JS__/bootstrap-colorpicker/css/colorpicker.css" />
+<link rel="stylesheet" type="text/css" href="__JS__/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+<link rel="stylesheet" type="text/css" href="__JS__/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+{/block}
+{block name="main"}
+<!--body wrapper start-->
+<div class="wrapper">
+    <div class="row">
+        <div class="col-md-12">
+            <!--breadcrumbs start -->
+            <ul class="breadcrumb panel">
+                <li><a href="{:url('Index/index')}"><i class="fa fa-home"></i> 控制台</a></li>
+                <li><a href="{:url('index')}">会员管理</a></li>
+                <li class="active">会员信息</li>
+            </ul>
+            <!--breadcrumbs end -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <section class="panel">
+                <header class="panel-heading col-xs-12">
+
+                    <form class="form-inline" action="{:url('')}">
+                        <div class="form-group">
+                            <div class="col-md-3">
+                                <div class="input-group  custom-date-range">
+                                    <input placeholder="开始日期"  class="form-control layer-date" id="start" value="{$_GET['from'] ?? ''}" name="from" readonly="readonly">
+                                    <span class="input-group-addon">到</span>
+                                    <input  placeholder="结束日期"  class="form-control layer-date" id="end" value="{$_GET['to'] ?? ''}" name="to" readonly="readonly">
+                                </div>
+                            </div>
+                            <input type="text" name="username" class="form-control" value="{$_GET['username'] ?? ''}" placeholder="用户账号">
+                            
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+
+                            <a href="{:url('add')}"  class="btn btn-success" title="添加">添加</a>
+                        </div>
+                    </form>
+
+                </header>
+                <div class="panel-body">
+                    <form class="ids" action="{:url('del')}" method="post">
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <!--<th><input class="check-all" type="checkbox"/></th>-->
+                                <th>UID</th>
+                                <th>用户名</th>
+                                <th>Email</th>
+                                <th>余额</th>
+                                <th>IP</th>
+                                <th>冻结/解冻</th>
+                                <th>注册时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {volist name='list' id='v'}
+                            <tr>
+                                <!--<td><input class="ids" type="checkbox" value="{$v.id}" name="ids[]"/></td>-->
+                                <td>{$v.id}</td>
+                                <td>{$v.username}</td>
+                                <td>{$v.email}</td>
+                                <td>{$v.money}</td>
+                                <td>{$v["ip"]} </td><td>
+                                {if $v['status']==1}
+                                <a href="#"   class="btn btn-danger btn-xs ajax-get" onclick="frozen('{$v.id}')" title="冻结">冻结</a>
+                                {else/}
+                                <a href="#"   class="btn btn-success btn-xs ajax-get" onclick="unfreeze('{$v.id}')" title="解冻">解冻</a>
+                                {/if}</td>
+                                <td>{$v["create_at"]|date="Y-m-d H:i:s",###} </td>
+                                <td>
+                                    <a href="{:url('show_list',['id'=>$v['id']])}" class="fa fa-edit" title="编辑"></a>
+                                    <a href="{:url('del',array('id'=>$v['id']))}" class="fa fa-times confirm " onclick="return confirm('确定删除?删除后将不能找回');" title="删除"></a>
+                                </td>
+                            </tr>
+                            {/volist}
+
+                            </tbody>
+                        </table>
+                    </form>
+
+                    <!--<a href="{:url('del')}" class="btn btn-sm btn-primary ajax-post confirm" target-form="ids">批量删除</a>-->
+
+                </div>
+            </section>
+            {$page}
+        </div>
+
+    </div>
+</div>
+<div aria-hidden="true" aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="rechargeModal" class="modal fade">
+    <div class="modal-dialog" style="width:400px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">清空账号所有数据(慎用)</h4>
+            </div>
+            <form class="form-horizontal form-post-addmoney" action="{:url('member/clear_all')}" method="post">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="col-lg-3 col-sm-3 control-label">用户名</label>
+                        <div class="col-lg-8">
+                            <input type="text" name="username" class="form-control" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">取消</button>
+                    <button class="btn btn-primary " type="submit" target-form="form-post-addmoney">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--body wrapper end-->
+<script type="text/javascript">
+    function recharge() {
+        $('#rechargeModal').modal('show');
+    }
+function frozen(uid) {
+    $.ajax({
+        type: "post",
+        url: "{:url('edit_frozen')}",
+        data: {'id':uid},
+        dataType: "json",
+        async: false,
+        success: function(data) {
+            var info = data.msg;
+            alert(info);
+            location.reload();
+        }
+    });
+}
+function unfreeze(uid) {
+    $.ajax({
+        type: "post",
+        url: "{:url('edit_unfreeze')}",
+        data: {'id':uid},
+        dataType: "json",
+        async: false,
+        success: function(data) {
+            var info = data.msg;
+            alert(info);
+            location.reload();
+        }
+    });
+}
+</script>
+{/block}
+<!-- modal -->
+{block name="js"}
+<!--pickers plugins-->
+
+<script type="text/javascript" src="__JS__/laydate/laydate.js"></script>
+<script>
+    laydate({elem:"#start",event:"focus"});
+    laydate({elem:"#end",event:"focus"});
+
+</script>
+
+<!--pickers initialization-->
+
+{/block}
